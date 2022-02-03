@@ -17,7 +17,7 @@ public class GetCategoryResponse {
     @JsonProperty("title")
     private String title;
     @JsonProperty("products")
-    private List<Product> products = new ArrayList<>();
+    private List<ProductResponse> products = new ArrayList<>();
 
 
 }
